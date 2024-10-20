@@ -3,8 +3,8 @@ package api
 import (
 	"log"
 	"net/http"
-	"test/controllers"
 
+	"github.com/HarshThakur1509/go-net-http/controllers"
 	"github.com/rs/cors"
 )
 

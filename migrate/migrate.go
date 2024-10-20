@@ -1,8 +1,8 @@
 package main
 
 import (
-	"test/initializers"
-	"test/models"
+	"github.com/HarshThakur1509/go-net-http/initializers"
+	"github.com/HarshThakur1509/go-net-http/models"
 )
 
 func init() {

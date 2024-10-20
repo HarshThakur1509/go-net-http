@@ -3,8 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"net/http"
-	"test/initializers"
-	"test/models"
+
+	"github.com/HarshThakur1509/go-net-http/initializers"
+	"github.com/HarshThakur1509/go-net-http/models"
 )
 
 func PostIdea(w http.ResponseWriter, r *http.Request) {

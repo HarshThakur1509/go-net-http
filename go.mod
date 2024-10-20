@@ -1,4 +1,4 @@
-module test
+module github.com/HarshThakur1509/go-net-http
 
 go 1.23.2
 

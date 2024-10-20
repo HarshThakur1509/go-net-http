@@ -1,8 +1,8 @@
 package main
 
 import (
-	"test/api"
-	"test/initializers"
+	"github.com/HarshThakur1509/go-net-http/api"
+	"github.com/HarshThakur1509/go-net-http/initializers"
 )
 
 func init() {
