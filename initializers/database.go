@@ -10,7 +10,7 @@ import (
 
 var DB *gorm.DB
 
-func COnnectDb() {
+func ConnectDb() {
 	var err error
 
 	dsn := "host=localhost user=postgres password=harsh dbname=test port=5432 sslmode=disable"

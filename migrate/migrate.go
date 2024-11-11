@@ -6,7 +6,7 @@ import (
 )
 
 func init() {
-	initializers.COnnectDb()
+	initializers.ConnectDb()
 }
 func main() {
 	Idea := &models.Idea{}

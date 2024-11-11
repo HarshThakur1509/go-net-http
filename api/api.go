@@ -31,7 +31,7 @@ func (s *APIServer) Run() error {
 
 	router.Handle("/", middleware.RequireAuth(adminRouter))
 
-	stack := middleware.MiddlewareChain(middleware.Logger)
+	stack := middleware.MiddlewareChain(middleware.Logger, middleware.RecoveryMiddleware)
 
 	server := http.Server{
 		Addr:    s.addr,
